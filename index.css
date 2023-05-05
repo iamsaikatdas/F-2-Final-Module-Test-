@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  background-color: #d9d9d9;
+}
+.heading {
+  padding: 15px 0;
+  background-color: black;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.heading h1 {
+  width: 90%;
+  margin: auto;
+}
+.student-container {
+  width: 90%;
+  width: 90%;
+  margin: auto;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.search input {
+  padding: 15px 9px;
+  font-size: 19px;
+  width: 87%;
+  border-color: gray;
+  outline: none;
+}
+.search button {
+  width: 13%;
+  padding: 15px 6px;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* SORING BUTTON */
+.diff-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.diff-btn button {
+  padding: 15px 40px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+th,
+td {
+  border-collapse: collapse;
+  text-align: center;
+  padding: 9px 0;
+  font-size: 19px;
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+  margin: 60px 0;
+}
+.img-name {
+  display: flex;
+  align-items: center;
+}
+.img-name > img {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: 15px;
+}
